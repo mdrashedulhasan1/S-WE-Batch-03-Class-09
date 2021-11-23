@@ -1,0 +1,48 @@
+.banner{
+    background: url(Compute.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+.main_form{
+    height: 600px;
+    width: 500px;
+    /* background-color: gray; */
+    background: linear-gradient(90deg,cyan,pink);
+    margin: 100px auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_form form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 10px;
+    margin-top: 10px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.main_form form input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.main_form form label{
+    font-size: 30px;
+    color: #0011ff;
+}
+.main_form form button{
+    height: 40px;
+    width: 80px;
+    margin-left: 155px;
+    border-radius: 15px;
+    border: 0;
+    background-color: greenyellow;
+}
